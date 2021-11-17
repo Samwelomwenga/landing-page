@@ -8,13 +8,24 @@
 
 header{
     background-color: #1f2937;
+    padding-left: 100px;
 
 
 }
+.main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+    
+}
+
 .container .header-link {
     display: flex;
     justify-content: flex-end;
-    
+    padding-right: 100px;
+
 
 }
 .item{
@@ -26,22 +37,48 @@ header{
     font-size: 24px;
     color: #f9faf8;
 }
-.qoute{
+.image-main{
+display: flex;
+height: 300px;
+width: 500px;
+}
+.pic-look{
+    display: flex;
+    height: 250px;
+padding-left: 120px;
+}
+.cap-look{
+    padding-left: 120px;
+}
+.qouted{
     background-color: #e5e7eb;
+    
+    margin-bottom: 20px;
+    padding: 100px;
+}
+blockquote{
     font-size: 36px;
     font-style:italic;
     color: #1f2937;
 }
+cite{
+float: right;
+
+}
 .action{
     background-color: #3882f6;
-    padding:30px;
+    padding:50px;
     margin: 100px;
     color:#ffffff;
+    margin-bottom: 50px;
 }
-.h2{
+.get-look{
+    display: flex;
     font-size: 36px;
     color: #1f2937;
     font-weight: bolder;
+    margin-bottom: 20px;
+justify-content: center;
 }
 footer{
     background-color: #1f2937;
@@ -51,11 +88,13 @@ footer{
 
 }
 .action .button{
+
     background-color: #3882f6;
     padding: 3px;
     color:#ffffff;
     border-color:#ffffff ;
     float: right;
+    
     
 
     
@@ -63,7 +102,8 @@ footer{
 }
 .button{
     background-color: #3882f6;
-    padding: 3px;
+    padding: 6px;
+    border-radius:700px;
     color:#ffffff;
     border-color:#ffffff ;
 
