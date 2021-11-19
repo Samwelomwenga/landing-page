@@ -41,14 +41,26 @@ header{
 display: flex;
 height: 300px;
 width: 500px;
+border: 3px;
+border-radius: 5px;
+border-style: solid;
+border-color: #3882f6;
+}
+.look{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
 }
 .pic-look{
     display: flex;
-    height: 250px;
-padding-left: 120px;
+    height: 150px;
+border: 3px;
+border-radius: 5px;
+border-style: solid;
+border-color: #3882f6;
 }
 .cap-look{
-    padding-left: 120px;
+  width: 150px;
 }
 .qouted{
     background-color: #e5e7eb;
@@ -88,12 +100,16 @@ footer{
 
 }
 .action .button{
-
+    
     background-color: #3882f6;
-    padding: 3px;
+    padding: 5px;
     color:#ffffff;
     border-color:#ffffff ;
     float: right;
+    border-radius: 5px;
+    width: 100px;
+    
+
     
     
 
@@ -102,9 +118,10 @@ footer{
 }
 .button{
     background-color: #3882f6;
-    padding: 6px;
-    border-radius:700px;
+    padding: 5px;
     color:#ffffff;
     border-color:#ffffff ;
+    border-radius: 5px;
+    width: 100px;
 
 }
