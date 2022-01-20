@@ -2,15 +2,11 @@
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
-
-
 }
-
 header{
     background-color: #1f2937;
     padding-left: 100px;
     padding-right: 100px;
-
 }
 .main{
     display: flex;
@@ -19,7 +15,6 @@ header{
     align-items: center;
     color: #ffffff;
     margin-bottom: 10px;
-    
 }
 .main div{
     width: 450px;
@@ -32,7 +27,6 @@ header{
 nav{
  display: flex; 
  justify-content: space-between;  
-  */
 }
 ul{
     list-style: none;
@@ -50,9 +44,6 @@ ul{
     font-size: 24px;
     color: #f9faf8;
 }
-
-}
-
 .look{
     display: flex;
    flex-direction: column;
@@ -70,7 +61,7 @@ height: 150px;
 margin-bottom: 10px;
 border: 3px solid #3882f6;
 border-radius: 5px;
-box-shadow: 2px 2px 2px 2px #1f2937 ;
+box-shadow: 2px 2px 2px 2px lightgrey ;
 }
 .cap-look{
   width: 150px;
@@ -111,10 +102,8 @@ footer{
     padding: 10px;
     text-align: center;
     color: #f9faf8;
-
 }
 .action .button{
-    
     background-color: #3882f6;
     padding: 5px;
     color:#ffffff;
@@ -132,14 +121,12 @@ footer{
     border-radius: 5px;
     width: 100px;
     margin-top: 50px;
-
 }
 .button:hover, .button:focus-visible{
     color: #3882f6;
     background-color: #ffffff;
     border: 2px solid #3882f6;
     transform: scale(1.1);
-
 }
 @media screen and ( max-width: 960px ) {
     header{
@@ -149,7 +136,6 @@ footer{
     .look div{
         display: flex;
         flex-direction: column;
-        /* margin: 0; */
     }
     .pic-look{
         width: 250px;
@@ -179,7 +165,7 @@ footer{
     flex-direction: column;
 }
 .main .button{
-    width: 100%;
+    width: 90%;
         padding: 10px;
         margin: 40px auto 20px auto; 
 }
